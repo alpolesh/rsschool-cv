@@ -12,7 +12,8 @@ I began to lear HTML, CSS and Javascript with "htmlAcademy" courses. Now I want 
 - Belarusian National Technical University (BNTU), master’s degree of Civil Engineering (Steel structure). 
 - HTML Academy (November, 2019 - nowadays) 
  [https://htmlacademy.ru](https://htmlacademy.ru/)
-### English: ###
-English level B1 (Intermediate)
+ 
+### English:
+English level B1 (Intermediate).
 
 Visited the USA according to the program "Work and travel" in 2013.
