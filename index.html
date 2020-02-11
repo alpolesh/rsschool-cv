@@ -4,46 +4,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
-  <header>
-    <h1>Andrei Paleshchuk</h1>
-  </header>
-  <main>
-    <section>
-      <h2>Contact Info:</h2>
-      <img src="images\avatar.jpg" width="300px">
-      <ul>
-        <li><b>phone number:</b> +375-29-3336138</li>
-        <li><b>email:</b> alpoleshuck@gmail.com</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Summary:</h2>
-      <div>
-        I began to learn HTML, CSS and Javascript with "htmlAcademy" courses.<br>
-        Now I want to try get a profession "Frontend-developer".<br>
-        My goal is to understand the topic thoroughly.<br>
-      </div>
-    </section>
-    <section>
-      <h2>Education:</h2>
-      <ul>
-        <li>Belarusian National Technical University (BNTU), master’s degree of Civil Engineering (Steel structures).</li>
-        <li>HTML Academy (November, 2019 - nowadays)<a href="https://htmlacademy.ru/">https://htmlacademy.ru/</a></li>
-      </ul>
-    </section>
-    <section>
-      <h2>English:</h2>
-      <ul>
-        <li>English level B1 (Intermediate).</li>
-        <li>Visited the USA according to the program "Work and travel" in 2013.</li>
-      </ul>
-    </section>
-  </main>
-  <footer>
-    <div><b>Mobile:</b> +375-29-3336138 || <b>Telegram:</b> @Andrey_Poleshchuk || <b>Email:</b> alpoleshuck@gmail.com</div>
-  </footer>
+  <div class="block">
+    <header>
+      <h1>Andrei Paleshchuk</h1>
+    </header>
+    <main>
+      <section class="info">
+        <h2>Contact Info:</h2>
+        <div class="container">
+          <img src="images\avatar.jpg" alt="avatar" width="300px">
+          <ul class="contacts">
+            <li><b>phone number:</b> +375-29-3336138</li>
+            <li><b>email:</b> alpoleshuck@gmail.com</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2>Summary:</h2>
+        <div>
+          I began to learn HTML, CSS and Javascript with "htmlAcademy" courses.<br>
+          Now I want to try get a profession "Frontend-developer".<br>
+          My goal is to understand the topic thoroughly.<br>
+        </div>
+      </section>
+      <section>
+        <h2>Education:</h2>
+        <ul>
+          <li>Belarusian National Technical University (BNTU), master’s degree of Civil Engineering (Steel structures).</li>
+          <li>HTML Academy (November, 2019 - nowadays)<a href="https://htmlacademy.ru/">https://htmlacademy.ru/</a></li>
+        </ul>
+      </section>
+      <section>
+        <h2>English:</h2>
+        <ul>
+          <li>English level B1 (Intermediate).</li>
+          <li>Visited the USA according to the program "Work and travel" in 2013.</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <div><b>Mobile:</b> <span class="footer-link">+375-29-3336138</span></div>
+      <div><b>Telegram:</b> <span class="footer-link">@Andrey_Poleshchuk</span></div>
+      <div><b>Email:</b> <span class="footer-link">alpoleshuck@gmail.com</span></div>
+    </footer>
+  </div>
 </body>
 </html>
